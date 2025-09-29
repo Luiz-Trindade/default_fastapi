@@ -1,0 +1,160 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pym
+*.pyt
+*.pdb
+
+# -----------------------
+# Virtual environment
+# -----------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# -----------------------
+# Alembic migrations
+# -----------------------
+migrations_tmp/
+migrations/__pycache__/
+migrations/*.pyc
+migrations/versions/*.pyc
+
+# -----------------------
+# Diskcache / Cache
+# -----------------------
+cache/
+*.db
+*.cache
+__diskcache__/
+
+# -----------------------
+# SQLite / Database files
+# -----------------------
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# -----------------------
+# Poetry / Pipenv
+# -----------------------
+.poetry/
+*.lock
+pip-selfcheck.json
+
+# -----------------------
+# FastAPI / Uvicorn / ASGI
+# -----------------------
+*.log
+*.pid
+*.sock
+*.tmp
+
+# -----------------------
+# Docker
+# -----------------------
+docker-compose.override.yml
+*.dockerfile
+*.env
+*.env.local
+*.env.*.local
+.docker/
+*.tar
+*.tgz
+docker-compose.override.*.yml
+
+# -----------------------
+# IDEs e editores
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# -----------------------
+# Logs e temporários
+# -----------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.out
+*.pid
+*.seed
+*.dump
+*.traceback
+
+# -----------------------
+# Sistema
+# -----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.lnk
+desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------
+# Coverage / Test
+# -----------------------
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# -----------------------
+# Distribution / Packaging
+# -----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+*.manifest
+*.spec
+
+# -----------------------
+# Jupyter
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Arquivos sensíveis / chaves
+# -----------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env
+.env.local
+.env.*.local
+
+# -----------------------
+# Uploads / mídia local
+# -----------------------
+uploads/
+media/
+staticfiles/
